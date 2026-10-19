@@ -9,7 +9,7 @@ plugins {
 }
 
 android {
-    namespace = "com.monuk7735.nope.remote.debug"
+    namespace = "com.monuk7735.nope.remote"
     compileSdk = 36
 
     defaultConfig {
