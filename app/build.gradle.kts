@@ -9,15 +9,15 @@ plugins {
 }
 
 android {
-    namespace = "com.monuk7735.nope.remote"
+    namespace = "com.monuk7735.nope.remote.debug"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.monuk7735.nope.remote"
+        applicationId = "com.monuk7735.nope.remote.debug"
         minSdk = 23
         targetSdk = 35
         versionCode = 25
-        versionName = "2.5"
+        versionName = "2.5.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
