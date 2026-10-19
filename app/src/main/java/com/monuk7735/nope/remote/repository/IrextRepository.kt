@@ -23,7 +23,7 @@ class IrextRepository(private val application: Application) : IRSourceRepository
         val dirName = RepoDownloadManager.RepositoryInfo.IREXT.directoryName
         val repoDir = File(context.filesDir, "repos/$dirName")
 
-        val dbFile = File(repoDir, "irext_db_20260519_sqlite3.db")
+        val dbFile = File(repoDir, "irext_db_20260929_sqlite3.db")
         var genericDbFile = if (dbFile.exists()) dbFile else null
 
         if (genericDbFile == null && repoDir.exists()) {
@@ -207,7 +207,7 @@ class IrextRepository(private val application: Application) : IRSourceRepository
         val context = application
         val dirName = RepoDownloadManager.RepositoryInfo.IREXT.directoryName
         val repoDir = File(context.filesDir, "repos/$dirName")
-        val dbFile = File(repoDir, "irext_db_20260519_sqlite3.db")
+        val dbFile = File(repoDir, "irext_db_20260929_sqlite3.db")
 //        if (dbFile.exists()) {
 //             dbFile.delete()
 //        }
